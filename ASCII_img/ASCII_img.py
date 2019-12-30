@@ -15,7 +15,7 @@ max_brightness = 0
 min_brightness = 255
 
 # Here we are finding the brigthest, and the darkest pixel's brightness in the given image.
-# So later we can assign the each ASCII symbols to a pixel depending on it's relative brightness.
+# So later we can assign the each ASCII symbol to a pixel depending on it's relative brightness.
 for w in range(width):
     for h in range(height):
         rgb = im.getpixel((w, h))
