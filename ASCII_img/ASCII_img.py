@@ -29,7 +29,7 @@ for w in range(width):
 
 # Here comes the creating ASCII text part.
 # If the given pixel is darker lets assign the first ASCII symbol. And so on ...
-# Also adding a new line to the ASCII text everytime the loop is at the end of a image width.
+# Also adding a new line to the ASCII text everytime the loop is at the end of an image width.
 for h in range(height):
     for w in range(width):
         rgb1 = im.getpixel((w, h))
