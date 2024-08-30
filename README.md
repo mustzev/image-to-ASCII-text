@@ -1,4 +1,4 @@
-# Image-to-ASCII-text
+# image-to-ASCII-text
 Image to ASCII text converter using Python and PIL.
 
 To view the ASCII text in windows cmd:
